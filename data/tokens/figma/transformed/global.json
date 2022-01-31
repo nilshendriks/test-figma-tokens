@@ -56,6 +56,11 @@
         "value": "#1b873d",
         "description": "Success",
         "type": "color"
+      },
+      "danger": {
+        "value": "#f82323",
+        "type": "color",
+        "description": "danger"
       }
     }
   }
