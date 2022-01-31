@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Figma Design Tokens Test</title>
+  <link rel="stylesheet" href="css/global.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .group {
+      display: flex;
+      gap: 8px;
+    }
+  </style>
+</head>
+<body class="global-theme">
+  <div class="wrapper">
+    <h1>Figma Design Tokens Test</h1>
+    <h2>Colors</h2>
+    <h3>Primary</h3>
+    <div class="group">
+      <div class="swatch" style="background-color: var(--colors-black); width: 80px; height: 80px;"></div>
+      <div class="swatch" style="background-color: var(--colors-white); border: 1px solid black; width: 80px; height: 80px;"></div>
+      <div class="swatch" style="background-color: var(--colors-henk-black); width: 80px; height: 80px;"></div>
+      <div class="swatch" style="background-color: var(--colors-henk-white); border: 1px solid black; width: 80px; height: 80px;"></div>
+    </div>
+    <h3>Secondary</h3>
+    <div class="group">
+      <div class="swatch" style="background-color: var(--colors-secondary-accent-1); width: 80px; height: 80px;"></div>
+      <div class="swatch" style="background-color: var(--colors-secondary-accent-16); width: 80px; height: 80px;"></div>
+    </div>
+    <h3>Neutrals</h3>
+    <div class="group">
+      <div class="swatch" style="background-color: var(--colors-neutral-60); width: 80px; height: 80px;"></div>
+      <div class="swatch" style="background-color: var(--colors-neutral-80); width: 80px; height: 80px;"></div>
+    </div>
+    <h3>Semantic</h3>
+    <div class="group">
+      <div class="swatch" style="background-color: var(--colors-semantic-success); width: 80px; height: 80px;"></div>
+      <div class="swatch" style="background-color: var(--colors-semantic-danger); width: 80px; height: 80px;"></div>
+    </div>
+    <h3>Demo test</h3>
+    <div class="group">
+      <div class="swatch" style="background-color: var(--colors-semantic-warning, yellow); width: 80px; height: 80px;"></div>
+    </div>
+  </div>
+</body>
+</html>
