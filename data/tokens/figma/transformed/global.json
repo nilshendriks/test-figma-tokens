@@ -61,6 +61,11 @@
         "value": "#f82323",
         "type": "color",
         "description": "danger"
+      },
+      "warning": {
+        "value": "#fda713",
+        "type": "color",
+        "description": "warning"
       }
     }
   }
