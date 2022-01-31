@@ -1,0 +1,12 @@
+.global-theme {
+          --colors-black: #000000;
+  --colors-white: #ffffff;
+  --colors-henk-black: #1f1f1f;
+  --colors-henk-white: #f7f8f6;
+  --colors-neutral-60: #999999;
+  --colors-neutral-80: #ccc;
+  --colors-secondary-accent-1: #f3f1ec;
+  --colors-secondary-accent-16: #6b7156;
+  --colors-semantic-success: #1b873d;
+  --colors-semantic-danger: #f82323;
+      }
