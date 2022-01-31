@@ -1,0 +1,27 @@
+{
+  "name": "test-figma-tokens",
+  "version": "1.0.0",
+  "description": "test figma tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transformtokens" : "token-transformer data/tokens/figma/tokens.json data/tokens/figma/transformed/tokens-output.json global,dark, light",
+    "tokens2cssvars": "node_modules/.bin/style-dictionary build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilshendriks/test-figma-tokens.git"
+  },
+  "author": "nirusu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilshendriks/test-figma-tokens/issues"
+  },
+  "homepage": "https://github.com/nilshendriks/test-figma-tokens#readme",
+  "dependencies": {
+    "token-transformer": "0.0.17"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.1.1"
+  }
+}
