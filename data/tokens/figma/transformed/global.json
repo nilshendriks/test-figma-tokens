@@ -1,0 +1,62 @@
+{
+  "colors": {
+    "black": {
+      "value": "#000000",
+      "description": "Black",
+      "type": "color"
+    },
+    "white": {
+      "value": "#ffffff",
+      "description": "White",
+      "type": "color"
+    },
+    "henk": {
+      "black": {
+        "value": "#1f1f1f",
+        "description": "HENK Black",
+        "type": "color"
+      },
+      "white": {
+        "value": "#f7f8f6",
+        "description": "HENK White",
+        "type": "color"
+      }
+    },
+    "neutral": {
+      "60": {
+        "value": "#999999",
+        "type": "color",
+        "description": "Neutral 60"
+      },
+      "80": {
+        "value": "#ccc",
+        "description": "Neutral 80",
+        "type": "color",
+        "medium": {
+          "value": "#a4a4a4",
+          "description": "Grey Darm Medium",
+          "type": "color"
+        }
+      }
+    },
+    "secondary": {
+      "accent-1": {
+        "value": "#f3f1ec",
+        "type": "color",
+        "description": "Accent 1"
+      },
+      "accent-16": {
+        "value": "#6b7156",
+        "type": "color",
+        "description": "Accent 16"
+      }
+    },
+    "semantic": {
+      "success": {
+        "value": "#1b873d",
+        "description": "Success",
+        "type": "color"
+      }
+    }
+  }
+}
