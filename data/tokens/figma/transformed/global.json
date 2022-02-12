@@ -1,27 +1,5 @@
 {
   "colors": {
-    "black": {
-      "value": "#000000",
-      "description": "Black",
-      "type": "color"
-    },
-    "white": {
-      "value": "#ffffff",
-      "description": "White",
-      "type": "color"
-    },
-    "henk": {
-      "black": {
-        "value": "#1f1f1f",
-        "description": "HENK Black",
-        "type": "color"
-      },
-      "white": {
-        "value": "#f7f8f6",
-        "description": "HENK White",
-        "type": "color"
-      }
-    },
     "neutral": {
       "60": {
         "value": "#999999",
@@ -66,6 +44,28 @@
         "value": "#ee14fc",
         "type": "color",
         "description": "warning"
+      }
+    },
+    "primary": {
+      "black": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Black"
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "White"
+      },
+      "HENK-black": {
+        "value": "#1f1f1f",
+        "type": "color",
+        "description": "HENK Black"
+      },
+      "HENK-white": {
+        "value": "#f7f8f6",
+        "type": "color",
+        "description": "HENK White"
       }
     }
   }
