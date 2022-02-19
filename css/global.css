@@ -10,4 +10,7 @@
   --colors-primary-white: #ffffff;
   --colors-primary-henk-black: #1f1f1f;
   --colors-primary-henk-white: #f7f8f6;
+  --lineheight-desktop: 28;
+  --lineheight-mobile: 14;
+  --lineheight-global: 28;
       }
